@@ -1,0 +1,4 @@
+wget https://apt.puppetlabs.com/puppetlabs-release-$(lsb_release -cs).deb
+dpkg -i puppetlabs-release-$(lsb_release -cs).deb
+apt-get update
+apt-get install puppet
